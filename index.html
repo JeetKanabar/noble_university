@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOBLE UNIVERSITY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,100;1,200;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="dirmsg.html">DIRECTOR'S MASSAGE</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="aim.html">AIM</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Noble University</h1>
+            <p>A dream collage is pictures of your goals.</p>
+            <a href="contact.html" class="hero-btn">Visit Us to Know more</a>
+        </div>
+    </section>
+
+    <!-- for the courses -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Education is power</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>B.C.A</h3>
+                <p>Bachelor Computer application is a professional undergraduate Computer degree program awarded to candidates after they complete three years of study in the field. IT is one of the most popular courses in India.</p>
+            </div>
+            <div class="course-col">
+                <h3>M.C.A</h3>
+                <p>Master Computer Application is a professional postgraduate Computer master degree program awarded to candidates after completion of two years of study in the discipline of in this field. This degree is predicated in a specific branch of IT.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- for campus -->
+    <section class="campus">
+        <h1>Our Campuses</h1>
+        <p>V Stands Togather</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/infra.jpg">
+                <div class="layer">
+                    <h3>Junagadh <br> Gujarat</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/ftrimg.jpg">
+                <div class="layer">
+                    <h3>Mumbai <br> Maharashtra</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/campus.jpg">
+                <div class="layer">
+                    <h3>Bengaluru <br> Karnataka</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>An investment in the Knowledge always pays the best intrest.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.jpeg" alt="">
+                <h3>Library</h3>
+                <p>When in doubt go to the library.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/gym.jpg" alt="">
+                <h3>Gym</h3>
+                <p>It hurts now but one day it will be your warm up.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/infra.jpeg" alt="">
+                <h3>Infrastructure</h3>
+                <p>Infrastructure sector is all about bulding assets for the country. It is part of nation bulding.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- for call to action -->
+    <section class="cta">
+        <h1>Enrol for our various online courses<br>Anywhere from the world</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- for the footer -->
+    <section class="footer">
+        <p>Bhesan Road,<br> Junagadh, Gujrat, 362001 .</p>
+        <br>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/kanabar-jeet-0a8b94267" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/jeet_kanabar" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/mr_jeetu_26" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+        <br>
+        <p class="krp">Made by<a href="https://github.com/JeetKanabar" target="_blank" style="color:lightgreen"> Jeet Kanabar </a>   </p>
+        <br>
+    </section>
+
+
+    <!-- java script for user menu toggle -->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
